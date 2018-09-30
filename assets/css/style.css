@@ -1,0 +1,126 @@
+/* style page for Bootstrap Portfolio */
+
+/* Common items */
+
+body {
+  background: url("../images/skin.gif");
+}
+
+.container {
+  max-width: 960px;
+  background-color: #ffffff;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+  padding-left: 0;
+}
+
+.myBrand {
+  background-color: #4aaaa5;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  padding: 10px 30px 10px 30px;
+}
+
+.PageTitle {
+  height: 20px;
+  width: 100%;
+  background-color:white;
+  color: #4aaaa5;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+
+/* About Me page */
+#Jbpic {
+  height: 200px;
+  width: 200px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+/* Portfolio page */
+.griditem {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.griditem img {
+  width: 100%;
+  border: 0 none;
+}
+
+.griditem h3 {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+/* Contact page */
+#contactForm ul {
+  margin-bottom: 20px;
+}
+
+#contactForm li {
+  margin-bottom: 10px;
+}
+
+label, 
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+/* the Footer */
+.myFooter {
+  padding-top: 2px;
+  background-color: #666666;
+  border-top: 4px solid #4aaaa5;
+  height: 50px;
+}
+
+.myFooter h3 {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
